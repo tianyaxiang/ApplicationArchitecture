@@ -1,4 +1,4 @@
-package com.orb.domain.transatctionscript.model;
+package com.orb.domain.transactionscript.model;
 
 import lombok.Data;
 
@@ -16,6 +16,7 @@ import java.time.LocalDate;
 public class Contract {
     private Long id;
     private Long productId;
+    private String type;
     private LocalDate dateSigned;
     private BigDecimal revenue;
 }

@@ -1,6 +1,6 @@
-package com.orb.domain.transatctionscript.repository;
+package com.orb.domain.transactionscript.repository;
 
-import com.orb.domain.transatctionscript.model.Contract;
+import com.orb.domain.transactionscript.model.Contract;
 import org.springframework.stereotype.Repository;
 
 /**

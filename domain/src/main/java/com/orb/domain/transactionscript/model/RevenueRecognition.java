@@ -1,4 +1,4 @@
-package com.orb.domain.transatctionscript.model;
+package com.orb.domain.transactionscript.model;
 
 import lombok.Data;
 
