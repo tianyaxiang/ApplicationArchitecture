@@ -1,5 +1,10 @@
 # ApplicationArchitecture
-##应用背景
+## 应用目的 
+
+掌握企业应用常用的架构模式
+
+## 应用背景
+
 **收入确认问题**
 
 收入确认问题是商业系统中一个常见问题，关心的是何时将所收到的钱入帐。如果我卖给你杯咖啡，收入确认就很简单：我给你咖啡，收钱，然后立即将钱入帐。
@@ -14,6 +19,8 @@
 * 当签下一个售出文字处理软件的合同时，所有收入可立即入账。
 * 如果售出的是一个电子表格数据，则当天入帐1/3,60天后再入帐1/3,剩下的1/3 90天时入帐
 * 如果售出的是数据库，则当天入帐1/3,30天后再入帐1/3,剩下的1/3 60天时入帐
+
+## 应用源于以下
 
 ##  企业应用架构模式（Patterns of Enterprise Application Architecture）思维导图
 ![Image text](https://github.com/tianyaxiang/ApplicationArchitecture/blob/master/resources/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%BC%8F.png)
