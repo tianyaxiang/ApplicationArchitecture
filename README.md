@@ -20,15 +20,17 @@
 * 如果售出的是一个电子表格数据，则当天入帐1/3,60天后再入帐1/3,剩下的1/3 90天时入帐
 * 如果售出的是数据库，则当天入帐1/3,30天后再入帐1/3,剩下的1/3 60天时入帐
 
-## 应用源于以下
-
-##  企业应用架构模式（Patterns of Enterprise Application Architecture）思维导图
-![Image text](https://github.com/tianyaxiang/ApplicationArchitecture/blob/master/resources/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%BC%8F.png)
-## domain
-### [领域逻辑模式](https://github.com/tianyaxiang/ApplicationArchitecture/blob/master/domain/README.md)
+## 应用说明
+### -domain
+#### [领域逻辑模式](https://github.com/tianyaxiang/ApplicationArchitecture/blob/master/domain/README.md)
 * 事务脚本（Transaction Script)
 * 领域模型（Domain Model)
 * 表模块（Table Module)
 ##应用背景
+
+## 应用源于以下
+
+##  企业应用架构模式（Patterns of Enterprise Application Architecture）思维导图
+![Image text](https://github.com/tianyaxiang/ApplicationArchitecture/blob/master/resources/%E4%BC%81%E4%B8%9A%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84%E6%A8%A1%E5%BC%8F.png)
 
 
