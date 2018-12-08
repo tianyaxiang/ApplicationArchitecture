@@ -1,5 +1,7 @@
 package com.orb.domain.domainmodel;
 
+import java.math.BigDecimal;
+
 /**
  * ThreeWayRecognitionStrategy
  *
@@ -17,6 +19,11 @@ public class ThreeWayRecognitionStrategy implements RecognitionStrategy {
 
     @Override
     public void calculateRevenueRecognitions(Contract contract) {
+        BigDecimal times = new BigDecimal(3);
+        BigDecimal everyTimeRevenue = contract.getRevenue().divide(times, 2, BigDecimal.ROUND_HALF_UP);
 
+        contract.addRevenueRecognition(new RevenueRecognition(everyTimeRevenue,contract.getWhenSigned()));
+        contract.addRevenueRecognition(new RevenueRecognition(everyTimeRevenue,contract.getWhenSigned().plusDays(firstRecognitionOffset)));
+        contract.addRevenueRecognition(new RevenueRecognition(everyTimeRevenue,contract.getWhenSigned().plusDays(secondRecognitionOffset)));
     }
 }

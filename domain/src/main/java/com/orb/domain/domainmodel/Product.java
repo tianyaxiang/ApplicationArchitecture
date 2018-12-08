@@ -15,6 +15,10 @@ public class Product {
         this.recognitionStrategy = recognitionStrategy;
     }
 
+    void calculateRevenueRecognitions(Contract contract) {
+        recognitionStrategy.calculateRevenueRecognitions(contract);
+    }
+
     public static Product newWordProcessor(String name) {
         return new Product(name, new CompleteRecognitionStrategy());
     }
@@ -25,5 +29,9 @@ public class Product {
 
     public static Product newDatabase(String name) {
         return new Product(name, new ThreeWayRecognitionStrategy(30, 60));
+    }
+
+    public String getName() {
+        return name;
     }
 }
