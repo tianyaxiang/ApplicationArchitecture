@@ -21,7 +21,7 @@
 * 如果售出的是数据库，则当天入帐1/3,30天后再入帐1/3,剩下的1/3 60天时入帐
 
 ## 应用说明
-### -domain
+###  —— domain 领域逻辑层的组织模式
 #### [领域逻辑模式](https://github.com/tianyaxiang/ApplicationArchitecture/blob/master/domain/README.md)
 * 事务脚本（Transaction Script)
 * 领域模型（Domain Model)
