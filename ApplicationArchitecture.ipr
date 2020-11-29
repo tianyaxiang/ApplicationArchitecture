@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="domain" />
+        <module name="strategy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="domain" target="1.8" />
+      <module name="strategy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
@@ -62,6 +64,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/domain/pom.xml" />
+        <option value="$PROJECT_DIR$/strategy/pom.xml" />
       </list>
     </option>
   </component>
@@ -189,6 +192,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strategy/strategy.iml" filepath="$PROJECT_DIR$/strategy/strategy.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager">
