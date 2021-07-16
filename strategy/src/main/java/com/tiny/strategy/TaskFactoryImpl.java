@@ -10,7 +10,7 @@ import java.util.Map;
  * @date 2020/11/29
  */
 public class TaskFactoryImpl implements TaskFactory {
-    private static final Map<String, BaseTask> taskMap = new HashMap(2);
+    private static final Map<String, Class<BaseTask>> taskMap = new HashMap(2);
 
 
     public BaseTask getTask(String type) {
